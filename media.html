@@ -20,6 +20,23 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
       
+	<style>
+	.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+</style>	
+	  
 </head>
 <body>
 
@@ -105,8 +122,10 @@
       <div class="container">
         <<h2 class="title" style="color:white">Media</h2>
         <hr style="width:50%; text-align:center; height:2px; border-width:0;color:#d3b044;background-color:#d3b044">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/b5EoFOpZxwg?start=1" title="Documentary Part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+       
+	   <div class="iframe-container">
+	   <iframe width="450" height="315" src="https://www.youtube.com/embed/b5EoFOpZxwg?start=1" title="Documentary Part 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div>
                             
                         </div>
                     </div>
