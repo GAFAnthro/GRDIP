@@ -12,6 +12,13 @@
  
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
+ 
+ function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+ 
+ 
 
 var searchVisible = 0;
 var transparent = true;
